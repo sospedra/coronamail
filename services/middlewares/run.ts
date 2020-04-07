@@ -7,12 +7,16 @@ export const run = (
   fn: RequestHandler,
 ) => {
   return new Promise((resolve, reject) => {
-    fn(req as Request, (res as unknown) as Response, (result: any) => {
-      if (result instanceof Error) {
-        return reject(result)
-      }
+    fn(
+      (req as unknown) as Request,
+      (res as unknown) as Response,
+      (result: any) => {
+        if (result instanceof Error) {
+          return reject(result)
+        }
 
-      return resolve(result)
-    })
+        return resolve(result)
+      },
+    )
   })
 }
