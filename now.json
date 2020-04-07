@@ -1,0 +1,16 @@
+{
+  "env": {
+    "EMAIL_SECRET": "@email-secret",
+    "JWT_SECRET": "@jwt-secret",
+    "FAUNA_SECRET": "@fauna-secret",
+    "FAUNA_ACCOUNT_PASSWORD": "@fauna-account-password"
+  },
+  "build": {
+    "env": {
+      "EMAIL_SECRET": "@email-secret",
+      "JWT_SECRET": "@jwt-secret",
+      "FAUNA_SECRET": "@fauna-secret",
+      "FAUNA_ACCOUNT_PASSWORD": "@fauna-account-password"
+    }
+  }
+}

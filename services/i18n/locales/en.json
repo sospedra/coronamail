@@ -1,0 +1,187 @@
+{
+  "home": {
+    "claim": "",
+    "title": "",
+    "cta": "",
+    "who": {
+      "title": "",
+      "body0": "",
+      "body1": "",
+      "writer": {
+        "title": "",
+        "description": "",
+        "cta": ""
+      }
+    },
+    "features": {
+      "title": "",
+      "description": "",
+      "cta": "",
+      "send": {
+        "title": "",
+        "description": ""
+      },
+      "receive": {
+        "title": "",
+        "description": ""
+      },
+      "assist": {
+        "title": "",
+        "description": ""
+      }
+    },
+    "faq": {
+      "title": "",
+      "0": {
+        "question": "",
+        "answer": ""
+      }
+    }
+  },
+  "common": {
+    "footer": {
+      "text": "",
+      "about": "",
+      "faq": "",
+      "join": ""
+    },
+    "header": {
+      "login": "",
+      "register": "",
+      "app": "",
+      "new-mail": ""
+    },
+    "cookies": {
+      "text": ""
+    }
+  },
+  "about": {
+    "title": "",
+    "what": {
+      "title": "",
+      "body0": ""
+    },
+    "who": {
+      "title": "",
+      "body0": "",
+      "body1": ""
+    },
+    "contribute": {
+      "title": "",
+      "body0": ""
+    }
+  },
+  "404": {
+    "title": "",
+    "description": "",
+    "cta": ""
+  },
+  "app": {
+    "inbox-title": "",
+    "outbox-title": "",
+    "readed-at": "",
+    "send-mail": "",
+    "banner": {
+      "send-mail": "Mail sent!"
+    },
+    "settings": {
+      "title": "",
+      "status-title": "",
+      "writer": "",
+      "sick": "",
+      "assistant": "",
+      "remove-title": "",
+      "remove-message": "",
+      "signout": ""
+    }
+  },
+  "editor": {
+    "title": "",
+    "subject-title": "",
+    "subject-placeholder": "",
+    "send-mail": ""
+  },
+  "auth": {
+    "login": {
+      "title": "",
+      "email": "",
+      "placeholder": "",
+      "password": "",
+      "cta": "",
+      "register-text": "",
+      "register-cta": "",
+      "success-title": "",
+      "success-indication": ""
+    },
+    "register": {
+      "title": "",
+      "body0": "",
+      "body1": "",
+      "role-title": "",
+      "role-description": "",
+      "role-writer": "",
+      "role-sick": "",
+      "role-assistant": "",
+      "email-title": "",
+      "email-description": "",
+      "email-placeholder": "",
+      "name-title": "",
+      "name-description": "",
+      "name-placeholder": "",
+      "country-title": "",
+      "country-description": "",
+      "country-placeholder": "",
+      "language-title": "",
+      "language-description": "",
+      "language-placeholder": "",
+      "tos": "",
+      "cta": ""
+    },
+    "error": {
+      "dismiss": "Dismiss",
+      "expired": "Token is expired",
+      "format": "Token has invalid format or misses data",
+      "invalid": "Token has invalid signature",
+      "title": "Ooops! Something went wrong",
+      "email": "That does not look like an email"
+    },
+    "email": {
+      "magic-link": {
+        "body0": "We received a request to sign in to CoronaMail using this email address.",
+        "body1": "If you want to sign in with your account ",
+        "body2": "Click the following button or copy and paste the link below.",
+        "cta": "Sign in to CoronaMail",
+        "footer0": "If you did not request this link, you can safely ignore this email.",
+        "footer1": "Thanks from the CoronaMail team.",
+        "subject": "📥 Sign in to CoronaMail"
+      },
+      "register": {
+        "body0": "We received a request to create a CoronaMail account using this email address.",
+        "body1": "If you want to sign up and collaborate with us using this e-mail ",
+        "body2": "Click the following button or copy and paste the link below.",
+        "cta": "Create a CoronaMail account",
+        "footer0": "If you did not request this link, you can safely ignore this email.",
+        "footer1": "Thanks from the CoronaMail team.",
+        "subject": "👋 Welcome to CoronaMail"
+      }
+    }
+  },
+  "mail": {
+    "home": "",
+    "created-at": "",
+    "by": "",
+    "do-reaction": "",
+    "did-reaction": "",
+    "share": "",
+    "clipboard": "",
+    "notification": {
+      "body0": "You have a new letter!",
+      "body1": "Log in to CoronaMail with your account ",
+      "body2": "Click the following button or copy and paste the link below.",
+      "cta": "Read my letter",
+      "footer0": "If you did not request this link, you can safely ignore this email.",
+      "footer1": "Thanks from the CoronaMail team.",
+      "subject": "💌 You got a letter"
+    }
+  }
+}

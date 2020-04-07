@@ -1,0 +1,312 @@
+{
+  "404": {
+    "cta": "Llévame a un sitio seguro.",
+    "description": "La página que buscas está en cuarentena, ¡estamos trabajando para poder recuperarla pronto!",
+    "seo-description": "Ha habido un error y no hemos encontrado la página.",
+    "seo-title": "Página no encontrada.",
+    "title": "Página no encontrada"
+  },
+  "about": {
+    "contribute": {
+      "body0": "¡Haznos llegar tu feedback! Para seguir mejorando y poder ofrecer el mejor servicio a todas las personas que quieran escribir o leer cartas, necesitamos que nos hagas llegar cualquier comentario, consulta o experiencia de uso a support@coronamail.org.",
+      "title": " ¿Quieres ayudar?"
+    },
+    "join": "¡Únete!",
+    "seo-description": "CoronaMail es una plataforma creada para facilitar el envío de cartas a personas contagiadas por la Covid-19.",
+    "seo-title": "Sobre CoronaMail",
+    "title": "Sobre CoronaMail",
+    "what": {
+      "body0": "coronamail.org es una plataforma creada sin ánimo de lucro para poder enviar muestras de cariño mediante cartas a toda la gente enferma y/o aislada y hacer así más llevadera su cuarentena.",
+      "body1": "El objetivo de CoronaMail es acompañar, distraer y hacer llegar amor mediante cartas, historias o cuentos procedentes del «exterior» a todas aquellas personas contagiadas o en cuarentena que necesiten algo de compañía durante su enfermedad.",
+      "body2": "Creemos que, los contagiados por la Covid-19 además de luchar contra el virus, en muchos casos también luchan contra la soledad. Qué mejor manera de darnos compañía en la lejanía del confinamiento que mediante cartas que, más allá de su contenido, acaben diciendo «Estamos juntos en esto».",
+      "title": "¿Qué es?"
+    },
+    "who": {
+      "body0": "Somos un grupo de voluntarios que quiere ayudar a superar conjuntamente y de la mejor manera posible la situación actual de pandemia. Tuvimos la idea a principios del confinamiento y empezamos a trabajar en ella. Al ver que algunos hospitales habilitaban correos electrónicos para hacer llegar mensajes a enfermos vimos que teníamos que seguir trabajando duro para acabar el proyecto lo antes posible.",
+      "body1": "Somos Bàrbara, organizadora de eventos, y Rubén, ingeniero de software. Estamos muy felices de poder compartir esta plataforma con todas aquellas personas que quieran colaborar. Gracias por adelantado.",
+      "title": "Sobre nosotros"
+    }
+  },
+  "app": {
+    "banner": {
+      "send-message": "Alguien va a recibir tu carta 🤩",
+      "send-title": "¡Carta enviada!"
+    },
+    "inbox-title": "Cartas recibidas 📥",
+    "outbox-title": "Cartas enviadas 📤",
+    "readed-at": "Leído el ",
+    "send-mail": "Envía una nueva carta",
+    "seo-description": "Inicio",
+    "seo-title": "Inicio",
+    "settings": {
+      "remove-message": "Envíanos un correo electrónico a ",
+      "remove-title": "¿Quieres eliminar tu cuenta?",
+      "role-confirm": "Este cambio implica empezar a o dejar de recibir cartas, ¿quieres confirmar?",
+      "role-accept": "Continúa",
+      "signout": "Cerrar sesión",
+      "status-title": "¿Quieres cambiar tu estado?",
+      "title": "Ajustes"
+    }
+  },
+  "auth": {
+    "email": {
+      "recover": {
+        "body0": "Hemos recibido para recuperar la contraseña de CoronaMail con este correo electrónico.",
+        "body1": "Si quieres reestablecer tus claves con tu cuenta ",
+        "body2": "haz clic en el siguiente botón o copia y pega el enlace en tu navegador.",
+        "cta": "Recuperar contraseña",
+        "footer0": "Si no has solicitado ninguna recuperación puedes ignorar este correo con total tranquilidad.",
+        "footer1": "Gracias de parte del equipo de CoronaMail.",
+        "subject": "🔑 Recuperar contraseña"
+      },
+      "register": {
+        "body0": "Hemos recibido una petición de crear una cuenta en CoronaMail usando este correo electrónico.",
+        "body1": "Si quieres registrarte y colaborar con nosotros usando este e-mail ",
+        "body2": "haz clic en el siguiente botón o copia y pega el enlace en tu navegador.",
+        "cta": "Crear una cuenta en CoronaMail",
+        "footer0": "Si no has solicitado ningún ingreso a CoronaMail, puedes ignorar este correo con total tranquilidad.",
+        "footer1": "Gracias de parte del equipo de CoronaMail.",
+        "subject": "👋 ¡Te damos la bienvenida a CoronaMail!"
+      }
+    },
+    "error": {
+      "dismiss": "Descartar",
+      "email": "Esto no parece un e-mail",
+      "expired": "El token ha caducado",
+      "format": "El token tiene un formato no válido o pierde datos",
+      "invalid": "El token no tiene una firma válida",
+      "title": "Ooops! Alguna cosa ha ido mal",
+      "required": "Este campo es obligatorio",
+      "missing": "Falta uno de los campos obligatorios",
+      "role": "El rol asignado no es válido",
+      "autentication": "Las credenciales no son correctas",
+      "match": "No coincide",
+      "password-length": "Ha de tener más de 8 carácteres",
+      "verified": "El correo no está verficado. Te hemos enviado un e-mail"
+    },
+    "login": {
+      "cta": "Accede",
+      "email": "Correo electrónico",
+      "password": "Contraseña",
+      "placeholder": "aurora@gmail.com",
+      "register-cta": "Crea una cuenta",
+      "register-text": "Sí aún no te has registrado,",
+      "seo-description": "Registro",
+      "seo-title": "Registro",
+      "success-indication": "Consulta tu bandeja de entrada para acceder a CoronaMail con tu cuenta.",
+      "success-title": "¡Tienes un correo 📨!",
+      "success-subtitle": "Ten en cuenta que puede tardar unos minutos",
+      "title": " Inicia sesión",
+      "recover-form-cta": "Recuperar la clave",
+      "recover-title": "Recuperar contraseña",
+      "recover-text": "O si no te acuerdas de tu clave de acceso",
+      "recover-cta": "recupera tu contraseña"
+    },
+    "register": {
+      "body0": "Los datos que nos facilites serán anónimos siguiendo las directrices más estrictas de seguridad en materia de datos personales. Cumplimos con todas las instrucciones de GDPR.Incluso tu correo electrónico quedará encriptado por lo que sería imposible hacer uso del mismo fuera de la plataforma por ninguna otra persona.",
+      "body1": "¡Puedes completar toda la información sin preocuparte! 😎",
+      "country-description": "Utilizamos esta información para asignar las cartas por proximidad.",
+      "country-placeholder": "Selecciona el país",
+      "country-title": "¿En qué país resides actualmente?",
+      "cta": "Crear la cuenta",
+      "email-description": "El e-mail tiene que ser válido para poder acceder. ¡No usamos contraseñas! Así que tu correo electrónico es todo lo que necesitas, por eso tiene que ser correcto.",
+      "email-placeholder": "aurora@gmail.com",
+      "email-title": "¿Cuál es tu correo electrónico?",
+      "password-description": "Tu contraseña va ser cifrada a prueba de bombas. Debe tener como mínimo 8 carácteres.",
+      "password-placeholder": "********",
+      "password-title": "¿Qué contraseña vas a usar?",
+      "language-description": "Utilizamos esta información para asignar las cartas con lectores que las puedan entender.",
+      "language-placeholder": "Selecciona las lenguas",
+      "language-title": "¿Qué lenguas hablas o entiendes?",
+      "name-description": "No tienes porqué poner tu nombre si no quieres, un sobrenombre también está bien.",
+      "name-placeholder": "Aurora",
+      "name-title": "¿Cuál es tu nombre?",
+      "privacy": "política de privacidad",
+      "privacy-message": "así como la ",
+      "role-assistant": "Soy personal sanitario, quiero leer.",
+      "role-description": "Es necesario para saber qué rol vas a desempeñar (escribir / leer)",
+      "role-sick": "Soy una persona enferma, quiero leer.",
+      "role-title": "¿Cuál es tu estado?",
+      "role-writer": "Quiero escribir cartas.",
+      "seo-description": "Información",
+      "seo-title": "Información",
+      "success-indication": "Consulta tu bandeja de entrada para acceder a CoronaMail con tu cuenta.",
+      "success-title": "📥 ¡Tienes un correo!",
+      "success-subtitle": "Ten en cuenta que puede tardar unos minutos",
+      "title": "Crear una cuenta",
+      "tos": "términos y condiciones del servicio ",
+      "tos-message": "Al crear esta cuenta aceptas los "
+    },
+    "recover": {
+      "error-button": "Iniciar nueva sesión",
+      "error": "¡Vaya! Ha ocurrido un error",
+      "loading": "Estamos procesando tu petición",
+      "seo-description": "Verificando autenticación",
+      "seo-title": "Verificando",
+      "success-message": "Vas a ser redirigido en breves",
+      "success": "Bienvenido",
+      "cta": "Cambiar contraseña",
+      "password-title": "Nueva contraseña",
+      "password-description": "Asegúrate de que tenga más de 8 carácteres",
+      "password-placeholder": "********",
+      "contrast-title": "Repite la nueva contraseña",
+      "contrast-description": "Vamos a asegurarnos de que la escribiste perfecta",
+      "contrast-placeholder": "********",
+      "title": "Recupera tu contraseña"
+    }
+  },
+  "common": {
+    "cookies": {
+      "legal": "condiciones legales",
+      "text": "Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario y así mejorar nuestro servicio. Si continúas navegando aceptas nuestras #{legal}. ¡Sigue navegando y cómete las cookies! 🍪"
+    },
+    "footer": {
+      "about": "Quiénes somos",
+      "faq": "FAQ",
+      "join": "Únete",
+      "text": "Hecho con ♥️ en Barcelona por "
+    },
+    "header": {
+      "app": "Ir a la app",
+      "login": "Inicia sesión",
+      "new-mail": "Crea una nueva carta",
+      "register": "Regístrate"
+    },
+    "loading": {
+      "alert": "Serás redirigido en breves",
+      "title": "Estamos procesando tu petición"
+    },
+    "name": "CoronaMail"
+  },
+  "editor": {
+    "close": "Cierra",
+    "error": {
+      "generic": "¡Vaya! Algo ha salido mal",
+      "mandatory-content": "Debes escribir alguna cosa en la carta, no querrás que la enviemos vacía",
+      "mandatory-subject": "El asunto es obligatorio"
+    },
+    "home": "Inicio",
+    "send-mail": "Envía",
+    "seo-description": "Escribe",
+    "seo-title": "Escribe tu carta",
+    "subject-placeholder": "Escribe el asunto de tu carta",
+    "subject-title": "Asunto",
+    "title": "Escribe una carta"
+  },
+  "home": {
+    "claim": "Repartiendo amor en tiempos de virus",
+    "cta": "Únete",
+    "faq": {
+      "2": {
+        "answer": "Sí, puedes escribir cartas en cualquier idioma. Todas las personas que se registren como lectoras deberán indicar en qué lenguas desean recibir las cartas. Por otro lado, en todas las cartas que se envíen se deberá indicar en qué idioma están escritas para facilitar la asignación. La plataforma se encargará de enviar las cartas a personas que hayan indicado que entienden esa lengua.",
+        "question": "¿Puedo escribir cartas en cualquier idioma?"
+      },
+      "6": {
+        "answer": "La página y su uso es completamente accesible.",
+        "question": "¿Si tengo una capacidad o necesidad especial puedo usar la plataforma?"
+      },
+      "0": {
+        "answer": "Puedes explicar todo aquello que te apetezca contar, qué te ha pasado durante el día, una anécdota, un simple mensaje de apoyo, una historia… ¡lo que quieras! ¡Siempre con respeto! Las cartas no deben contener datos privados ni mensajes abusivos que agredan o incomoden a la persona que lo lea. ¡Las cartas pueden ser compartidas en las Redes Sociales!.",
+        "question": "Quiero escribir una carta, ¿qué tengo que escribir?"
+      },
+      "1": {
+        "answer": "No, las cartas son anónimas en el sentido que no se podrá saber quién la envía más allá de si la persona que lo escribe ha indicado su nombre. No se pueden contestar las cartas recibidas pero sí se puede reaccionar a ellas mediante los emojis habilitados.",
+        "question": "¿Se pueden responder las cartas recibidas?"
+      },
+      "4": {
+        "answer": "No, sólo puedes escribirla. Esto es para que sea más efectivo el envío de cartas a las personas enfermas.",
+        "question": "¿Puedo leer cartas si no soy una persona enferma?"
+      },
+      "5": {
+        "answer": "Puedes modificar tu estado en el apartado «configuración».",
+        "question": "¿Qué pasa si era una persona enferma y ahora ya me he curado o al revés?"
+      },
+      "3": {
+        "answer": "El registro es necesario para el correcto funcionamiento del servicio. Necesitamos tu correo electrónico para poder notificarte cuando recibas una carta o una reacción. Recuerda a la historia de siempre pero sería imposible hacer otro uso de tu correo electrónico ya que quedará encriptado.",
+        "question": "¿Por qué tengo que registrarme?"
+      },
+      "7": {
+        "answer": "No guardamos ninguna información que no sea imprescindible para el correcto funcionamiento de la plataforma. Por ejemplo, en caso de un mal uso del servicio necesitamos poder investigar quién ha cometido ese abuso.",
+        "question": "¿Qué pasa con los datos que introduzco?"
+      },
+      "8": {
+        "answer": "De momento no, pero estamos trabajando en ello.",
+        "question": "¿Se pueden añadir imágenes u otros archivos a la carta?"
+      },
+      "9": {
+        "answer": "¡Haznos llegar tu feedback! Para seguir mejorando y poder ofrecer el mejor servicio a todas las personas que quieran escribir o leer cartas, necesitamos que nos hagas llegar cualquier comentario, consulta o experiencia de uso a support@coronamail.org.",
+        "question": "¿Cómo puedo ayudar al proyecto además de redactando cartas?"
+      },
+      "title": "Preguntas frecuentes"
+    },
+    "features": {
+      "assist": {
+        "description": "regístrate e indica que quieres recibirlas. Nos encargaremos de hacerte llegar cartas que puedas leer a las personas enfermas.",
+        "title": "Soy personal sanitario y quiero leer cartas a personas enfermas,"
+      },
+      "cta": "¡Únete",
+      "description": "El objetivo es hacer llegar cartas anónimas llenas de amor y apoyo a todas aquellas personas que quieran sentir que están acompañadas mientras luchan contra la Covid-19.",
+      "receive": {
+        "description": "regístrate e indica que quieres recibirlas. Te irán llegando cartas llenas de amor.",
+        "title": "Para leer un cartas,"
+      },
+      "send": {
+        "description": "regístrate y escribe una carta. Nos encargaremos de que sean recibidas por personas enfermas.",
+        "body0": "¡Puedes escribir tantas como quieras!",
+        "title": "Para enviar cartas,"
+      },
+      "title": "¿Cómo funciona?"
+    },
+    "seo-description": "CoronaMail es una plataforma que facilita el envío de cartas a personas contagiadas o aisladas por coronavirus. ¡Únete y empieza a repartir amor en tiempos de virus!",
+    "seo-title": "Reparte y recibe amor",
+    "body0": "Escribe cartas a personas enfermas o aisladas por la Covid-19 y hazles llegar tu cariño y apoyo.",
+    "body1": "Lee cartas si eres una persona enferma y recibe toda la fuerza para salir adelante.",
+    "who": {
+      "assistant": {
+        "cta": "¡Leer!",
+        "description": "Quiero leer cartas a personas enfermas.",
+        "title": "Soy personal sanitario."
+      },
+      "body0": "Indícanos qué rol quieres desempeñar:",
+      "body1": "Si en un futuro desearas modificar tu estado podrás hacerlo en el apartado «configuración» que aparecerá después de registrarte.",
+      "sick": {
+        "cta": "¡Leer!",
+        "description": "Quiero leer cartas.",
+        "title": "Soy una persona enferma o aislada."
+      },
+      "title": "Reparte y recibe amor",
+      "writer": {
+        "cta": "¡Escribir!",
+        "description": "Quiero escribir cartas a personas enfermas.",
+        "title": "Soy una persona que quiere participar."
+      }
+    }
+  },
+  "legal": {
+    "seo-description": "Condiciones legales",
+    "seo-title": "Condiciones legales"
+  },
+  "mail": {
+    "by": "por ",
+    "clipboard": "¡Se ha copiado en el portapapeles!",
+    "created-at": "Escrito el ",
+    "did-reaction": "Reaccionaste a la carta con este emoji: ",
+    "do-reaction": "Reaccionar a la carta con uno de estos emojis:",
+    "home": "Inicio",
+    "notification": {
+      "body0": "¡Tienes una nueva carta!",
+      "body1": "Inicia sesión en CoronaMail con tu cuenta ",
+      "body2": "clicando en el siguiente botón o copiando y pegando el enlace en tu navegador",
+      "cta": "¡Leer mi carta!",
+      "footer0": "Si no has solicitado ningún ingreso a CoronaMail, puedes ignorar este correo con total tranquilidad.",
+      "footer1": "Gracias de parte del equipo de CoronaMail.",
+      "subject": "💌 ¡Tienes una carta!"
+    },
+    "seo-description": "Una carta con asunto: ",
+    "share": {
+      "message": "Comparte esta carta y ¡ayúdanos a difundir la iniciativa!",
+      "link-body": "Me ha gustado esta carta de CoronaMail",
+      "link-cta": "Léela en"
+    }
+  }
+}

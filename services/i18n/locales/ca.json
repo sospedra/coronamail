@@ -1,0 +1,312 @@
+{
+  "404": {
+    "cta": "Porta'm a un lloc segur.",
+    "description": "La pàgina que busques està en quarantena, estem treballant per poder recuperar-la l'abans possible!",
+    "seo-description": "Hi ha hagut un error i no hem pogut trobar la pàgina.",
+    "seo-title": "Pàgina no trobada.",
+    "title": "Pàgina no trobada"
+  },
+  "about": {
+    "contribute": {
+      "body0": "Fes-nos arribar el teu feedback! Per seguir millorant i poder oferir el millor servei a totes les persones que vulguin escriure o llegir cartes, necessitem que ens facis arribar qualsevol comentari, consulta o experiència d'ús a support@coronamail.org.",
+      "title": "Vols ajudar?"
+    },
+    "join": "Uneix-te",
+    "seo-description": "CoronaMail és una plataforma creada per facilitar l'enviament de cartes a persones contagiades per la Covid-19.",
+    "seo-title": "Sobre CoronaMail",
+    "title": "Sobre CoronaMail",
+    "what": {
+      "body0": "www.coronamail.org és una plataforma creada sense ànim de lucre per poder enviar cartes d'afecte a tota la gent malalta i/o aïllada i fer així més suportable la seva quarantena.",
+      "body1": "L'objectiu de CoronaMail és acompanyar, distreure i fer arribar amor mitjançant cartes, històries o contes procedents de l’\"exterior\" a totes aquelles persones contagiades o en quarantena que necessitin una mica de companyia durant la seva malaltia.",
+      "body2": "Creïem que, els contagiats per la Covid-19 a més a més de lluitar contra el virus, en molts casos també lluiten contra la soledat. Quina millor manera de donar-nos companyia en la llunyania del confinament que mitjançant cartes, que més enllà del seu contingut, acaben dient: \"Estem junts en això\".",
+      "title": "Què és?"
+    },
+    "who": {
+      "body0": "Som un grup de voluntaris que vol ajudar a superar conjuntament i de la millor manera possible la situació actual de pandèmia. Vam tenir la idea a principis del confinament i vam començar a treballar-hi. Al veure que alguns hospitals habilitaven correus electrònics per fer arribar missatges als malalts vam veure que havíem de seguir treballant dur per acabar el projecte l'abans possible.",
+      "body1": "Som Bàrbara, organitzadora d'esdeveniments, i Rubén, desenvolupador d'aplicacions. Estem molt feliços de poder compartir aquesta plataforma amb totes aquelles persones que hi vulguin col·laborar. Gràcies per avançat!",
+      "title": "Sobre nosaltres"
+    }
+  },
+  "app": {
+    "banner": {
+      "send-message": "Algú rebrà la teva carta 🤩",
+      "send-title": "Carta enviada!"
+    },
+    "inbox-title": "Cartes rebudes 📥",
+    "outbox-title": "Cartes enviades 📤",
+    "readed-at": "Llegit el",
+    "send-mail": "Envia una nova carta",
+    "seo-description": "Inici",
+    "seo-title": "Inici",
+    "settings": {
+      "remove-message": "Envia'ns un correu electrònic a ",
+      "remove-title": "Vols eliminar el teu compte?",
+      "role-confirm": "Aquest canvi implica començar a o deixar de rebre cartes, vols confirmar?",
+      "role-accept": "Continua",
+      "signout": "Tancar sessió",
+      "status-title": "Vols canviar el teu estat?",
+      "title": "Configuració"
+    }
+  },
+  "auth": {
+    "email": {
+      "recover": {
+        "body0": "Hem rebut una petició per recuperar la clau d'accés a CoronaMail amb aquest correu electrònic.",
+        "body1": "Si vols canviar la teva contrasenya amb el teu compte ",
+        "body2": "fes clic al següent botó o còpia i enganxa l'enllaç al teu navegador.",
+        "cta": "Recuperar contrasenya",
+        "footer0": "Si no has sol·licitat cap canvi de clau pots ignorar aquest correu amb total tranquil·litat.",
+        "footer1": "Gràcies de part de l'equip de CoronaMail.",
+        "subject": "🔑 Recuperar clau d'accés"
+      },
+      "register": {
+        "body0": "Hem rebut una petició de crear un compte a CoronaMail usant aquest correu electrònic.",
+        "body1": "Si vols registrar-te i col·laborar amb nosaltres fent servir el teu e-mail ",
+        "body2": "fes clic al següent botó o còpia i enganxa l'enllaç al teu navegador.",
+        "cta": "Crear una cuenta en CoronaMail",
+        "footer0": "Si no has sol·licitat cap ingrés a CoronaMail, pots ignorar aquest correu amb total tranquil·litat.",
+        "footer1": "Gràcies de part de l'equip de CoronaMail.",
+        "subject": "👋 Et donem la benvinguda a CoronaMail!"
+      }
+    },
+    "error": {
+      "dismiss": "Descartar",
+      "email": "Això no sembla un e-mail",
+      "expired": "El token ha caducat",
+      "format": "El token té un format no vàlid o perd dades",
+      "invalid": "El token no té una signatura vàlida",
+      "title": "Ooops! Alguna cosa ha anat malament",
+      "required": "Aquest camp és obligatori",
+      "missing": "Falta un dels camps obligatoris",
+      "role": "El rol assignat no és vàlid",
+      "autentication": "Les credencials no són correctes",
+      "match": "No coincideix",
+      "password-length": "Ha de tenir més de 8 caràcters",
+      "verified": "El correu no està verficat. T'hem enviat un e-mail"
+    },
+    "login": {
+      "cta": "Accedeix",
+      "email": "Correu electrònic",
+      "password": "Contrasenya",
+      "placeholder": "aurora@gmail.com",
+      "register-cta": "Crea un compte",
+      "register-text": "Si encara no t'has registrat,",
+      "seo-description": "Registre",
+      "seo-title": "Registre",
+      "success-indication": "Consulta la teva safata d'entrada per accedir a CoronaMail amb el teu compte.",
+      "success-title": "Tens un correu! 📨",
+      "success-subtitle": "Tingues en compte que pot trigar uns minuts a arribar.",
+      "title": " Inicia sessió",
+      "recover-form-cta": "Recuperar la clau",
+      "recover-title": "Recuperar contrasenya",
+      "recover-text": "O si no te'n recordes de la teva clau d'accés",
+      "recover-cta": "recupera la teva contrasenya"
+    },
+    "register": {
+      "body0": "Les dades que ens facilitis seran anònimes seguint les directrius més estrictes de seguretat en matèria de dades personals. Complim amb totes les instruccions de GDPR. Fins i tot el teu correu electrònic quedarà encriptat per la qual cosa seria impossible fer ús del mateix fora de la plataforma per cap altra persona.",
+      "body1": "Pots completar tota la informació sense patir per res! 😎",
+      "country-description": "Utilitzem aquesta informació per assignar les cartes per proximitat.",
+      "country-placeholder": "Selecciona el país",
+      "country-title": "A quin país resideixes actualment?",
+      "cta": "Crea el compte",
+      "email-description": "L'e-mail ha de ser vàlid per poder accedir-hi. No fem servir contrasenyes! Així que el teu correu electrònic és tot el que necessites, per això ha de ser correcte.",
+      "email-placeholder": "aurora@gmail.com",
+      "email-title": "Quin és el teu correu electrònic?",
+      "password-description": "",
+      "password-placeholder": "",
+      "password-title": "",
+      "language-description": "Utilitzem aquesta informació per assignarles cartes amb lectors que les puguin entendre.",
+      "language-placeholder": "Selecciona les llengües",
+      "language-title": "Quines llengües parles o entens?",
+      "name-description": "No has de posar el teu nom si no vols, un sobrenom també està bé.",
+      "name-placeholder": "Aurora",
+      "name-title": "Quin és el teu nom?",
+      "privacy": "la política de privacitat",
+      "privacy-message": "així com ",
+      "role-assistant": "Sóc personal sanitari, vull llegir.",
+      "role-description": "És necessari per saber quin rol exerciràs (escriure / llegir)",
+      "role-sick": "Sóc una persona malalta, vull llegir.",
+      "role-title": "Quin és el teu estat?",
+      "role-writer": "Vull escriure cartes.",
+      "seo-description": "Informació",
+      "seo-title": "Informació",
+      "success-indication": "Consulta la teva safata d'entrada per accedir a CoronaMail amb el teu compte",
+      "success-title": "📥 Tens un correu!",
+      "success-subtitle": "Tingues en compte que pot trigar uns minuts a arribar.",
+      "title": "Crear un compte",
+      "tos": "termes i condicions del servei.",
+      "tos-message": "Al crear aquest compte acceptes els "
+    },
+    "recover": {
+      "error-button": "Inicia una nova sessió",
+      "error": "Uuups! Alguna cosa ha sortit malament",
+      "loading": "Estem processant la teva petició",
+      "seo-description": "Verificant l'autenticació",
+      "seo-title": "Verificant",
+      "success-message": "Seràs redirigit en breus",
+      "success": "Benvingut",
+      "cta": "Canviar contrasenya",
+      "password-title": "Nova contrasenya",
+      "password-description": "Ha de tenir més de 8 caràcters",
+      "password-placeholder": "********",
+      "contrast-title": "Repeteix la nova contrasenya",
+      "contrast-description": "És per assegurar-nos que està perfecta",
+      "contrast-placeholder": "********",
+      "title": "Recupera la teva clau"
+    }
+  },
+  "common": {
+    "name": "CoronaMail",
+    "cookies": {
+      "text": "Utilitzem cookies pròpies i de tercers per millorar l'experiència de l'usuari i així millorar el nostre servei. Si continues navegant acceptes les nostres #{legal}. Segueix navegant i menja't les cookies!🍪",
+      "legal": "condicions legals"
+    },
+    "footer": {
+      "about": "Sobre nosaltres",
+      "faq": "FAQ",
+      "join": "Uneix-te",
+      "text": "Fet amb ♥️ des de Barcelona per "
+    },
+    "header": {
+      "app": "Anar a l'app",
+      "login": "Accedeix",
+      "new-mail": "Crea una nova carta",
+      "register": "Crear un compte"
+    },
+    "loading": {
+      "alert": "Seràs redirigit en breus",
+      "title": "Estem processant la teva petició"
+    }
+  },
+  "editor": {
+    "close": "Tanca",
+    "error": {
+      "generic": "Òndia! Alguna cosa ha sortit malament",
+      "mandatory-content": "Has d'escriure alguna cosa a la carta, no voldràs que l'enviem buida",
+      "mandatory-subject": "L'assumpte és obligatori"
+    },
+    "home": "Inici",
+    "send-mail": "Envia",
+    "seo-description": "Escriu",
+    "seo-title": "Escriu la teva carta",
+    "subject-placeholder": "Escriu l'assumpte de la teva carta",
+    "subject-title": "Assumpte",
+    "title": "Escriure una carta"
+  },
+  "home": {
+    "claim": "Repartint amor en temps de virus #JoActuo",
+    "cta": "Uneix-te",
+    "faq": {
+      "2": {
+        "answer": "Sí, pots escriure cartes en qualsevol idioma. Totes les persones que es registrin com a lectores hauran d'indicar en quines llengües volen rebre les cartes. D'altra banda, en totes les cartes que s'enviïn s'haurà d'indicar en quin idioma estan escrites per facilitar l'assignació. La plataforma s'encarregarà d'enviar aquesta carta a persones que hagin indicat que entenen aquella llengua.",
+        "question": "Puc escriure cartes en qualsevol idioma?"
+      },
+      "6": {
+        "answer": "La pàgina i el seu ús és completament accessible.",
+        "question": "Si tinc una capacitat o necesitat especial puc utilizar la plataforma?"
+      },
+      "0": {
+        "answer": "Pots explicar tot allò que et vingui de gust explicar, què t'ha passat durant el dia, una anècdota, un simple missatge de suport, una història... el que vulguis! Sempre amb respecte!  Les cartes no han de contenir dades privades ni missatges abusius que agredeixin o incomodin a la persona que la llegeixi. Les cartes poden ser compartides a les Xarxes Socials.",
+        "question": "Vull escriure una carta, què he de posar?"
+      },
+      "1": {
+        "answer": "No, les cartes són anònimes en el sentit que no es podrà saber qui l'envia més enllà de si la persona que l'escriu vol deixar el seu nom. No es poden contestar les cartes rebudes. Es pot reaccionar a elles mitjançant els emojis habilitats.",
+        "question": "Es poden respondre les cartes rebudes?"
+      },
+      "4": {
+        "answer": "No, només pots escriure’n. Això és perquè sigui més efectiu l'enviament de cartes a les persones malaltes.",
+        "question": "Puc llegir cartes si no sóc una persona malalta?"
+      },
+      "5": {
+        "answer": "Pots modificar el teu estat a l'apartat configuració.",
+        "question": "Què passa si era una persona malalta i ara ja m'he curat o a l'inrevés?"
+      },
+      "3": {
+        "answer": "El registre és necessari per al correcte funcionament del servei. Necessitem el teu correu electrònic per poder notificar-te quan rebis una carta o una reacció. Recorda a la història de sempre però seria impossible fer cap altre ús del teu correu ja que quedarà encriptat.",
+        "question": "Per què he de registrar-me?"
+      },
+      "7": {
+        "answer": "No guardem cap informació que no sigui imprescindible per al correcte funcionament de la plataforma. Per exemple, en cas d'un mal ús del servei necessitem poder investigar la persona que ha comés aquest abús.",
+        "question": "Què passa amb les dades que introdueixo?"
+      },
+      "8": {
+        "answer": "De moment no, però hi estem treballant.",
+        "question": "Es poden afegir imatges o altres arxius?"
+      },
+      "9": {
+        "answer": "Fes-nos arribar el teu feedback! Per seguir millorant i poder oferir el millor servei a totes les persones que vulguin escriure o llegir cartes, necessitem que ens feu arribar qualsevol comentari, consulta o experiència d'ús a support@coronamail.org.",
+        "question": "Com puc ajudar al projecte a més a més de redactant cartes?"
+      },
+      "title": "Preguntes freqüents"
+    },
+    "features": {
+      "assist": {
+        "description": "registra't i indica que vols rebre-les. Ens encarregarem de fer-te arribar cartes que puguis llegir a persones malaltes.",
+        "title": "Sóc personal sanitari i vull llegir cartes a persones malaltes,"
+      },
+      "cta": "Uneix-te!",
+      "description": "L'objectiu és fer arribar cartes anònimes plenes d'amor i suport a totes aquelles persones que vulguin sentir-se més acompanyades en la seva lluita contra la Covid-19.",
+      "receive": {
+        "description": "registra't i indica que vols rebre-les. T'aniran arrivant cartes pleines d'amor.",
+        "title": "Per llegir una carta"
+      },
+      "send": {
+        "description": "registra't i escriu una carta. Ens encarregarem que sigui rebuda per persones malaltes.",
+        "body0": "Pots ecriure tantes com vulguis!",
+        "title": "Per escriure cartes,"
+      },
+      "title": "Com funciona?"
+    },
+    "seo-description": "CoronaMail és una plataforma que facilita l'enviament de cartes a persones contagiades o aïllades per coronavirus. Uneix-te i comença a repartir amor en temps de virus! #JoActuo",
+    "seo-title": "Envia i rep amor",
+    "body0": "Escriu cartes a persones malaltes o aïllades per la Covid-19 i fes arribar el teu afecte i suport.",
+    "body1": " Llegeix cartes si ets una persona malalta i rep tota la força per a sortir endavant.",
+    "who": {
+      "assistant": {
+        "cta": "Llegir!",
+        "description": "Vull llegir cartes a persones malaltes.",
+        "title": "Sóc personal sanitari"
+      },
+      "body0": "Indica’ns quin rol vols dur a terme:",
+      "body1": "Si en un futur volguessis modificar el teu estat podràs fer-ho a l’apartat \"configuració\" que apareixerà després de registrar-te.",
+      "sick": {
+        "cta": "Llegir!",
+        "description": "Vull llegir cartes.",
+        "title": "Sóc una persona malalta o aïllada."
+      },
+      "title": "Ennvia i rep amor",
+      "writer": {
+        "cta": "Escriure!",
+        "description": "Vull escriure cartes a persones malaltes.",
+        "title": "Sóc una persona que vol participar."
+      }
+    }
+  },
+  "legal": {
+    "seo-description": "Condicions legals",
+    "seo-title": "Condicions legals"
+  },
+  "mail": {
+    "by": "",
+    "clipboard": "S'ha copiat al porta-retalls!",
+    "created-at": "Escrit el",
+    "did-reaction": "Vas reaccionar a la carta amb aquest emoji.",
+    "do-reaction": "Reaccionar a la carta amb un d'aquests emojis:",
+    "home": "Inici",
+    "notification": {
+      "body0": "Tens una nova carta!",
+      "body1": "Inicia sessió a CoronaMail amb el teu compte ",
+      "body2": "fent clic al següent botó o copiant i enganxant l'enllaç al teu navegador",
+      "cta": "Llegir la meva carta!",
+      "footer0": "Si no has sol·licitat cap ingrés a CoronaMail, pots ignorar aquest correu amb total tranquil·litat.",
+      "footer1": "Gràcies de part de l'equip de CoronaMail.",
+      "subject": "💌 Tens una carta!"
+    },
+    "seo-description": "Una carta amb assumpte: ",
+    "share": {
+      "message": "Comparteix aquesta carta i ajuda'ns a difondre la iniciativa!",
+      "link-body": "M'ha agradat aquesta carta de CoronaMail",
+      "link-cta": "Llegeix-la a"
+    }
+  }
+}
