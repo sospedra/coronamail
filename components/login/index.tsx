@@ -82,7 +82,7 @@ const Login: NextPage<{
                     {t('auth', 'login', 'title')}
                   </h3>
                   <div className='pt-6 mb-4 bg-white rounded'>
-                    <Form />
+                    <Form needsVerification={props.needsVerification} />
                   </div>
                 </>
               )}

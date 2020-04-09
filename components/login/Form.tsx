@@ -16,7 +16,9 @@ const createValidationSchema = (t: Translator) => {
   })
 }
 
-const LoginForm: React.FC<{}> = () => {
+const LoginForm: React.FC<{
+  needsVerification: boolean
+}> = (props) => {
   const { t } = useTranslation()
   const router = useRouter()
 
@@ -27,7 +29,10 @@ const LoginForm: React.FC<{}> = () => {
       routeAPI='/api/auth/login'
       onSubmit={(payload) => {
         setAuthCookie(payload.data.authToken)
-        router.replace('/app')
+        router.replace(
+          props.needsVerification ? '/app?onboarding=1' : '/app',
+          '/app',
+        )
       }}
       mutateAPI={(values) => ({
         ...values,

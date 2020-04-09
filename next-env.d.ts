@@ -1,6 +1,10 @@
 /// <reference types="next" />
 /// <reference types="next/types/global" />
 
+declare module 'tailwindcss/resolveConfig' {
+  export default (config: object) => object
+}
+
 type Unarray<T> = T extends Array<infer U> ? U : T
 
 type ArgumentTypes<F extends Function> = F extends (...args: infer A) => any

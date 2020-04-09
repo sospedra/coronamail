@@ -10,6 +10,7 @@ import Section from './Section'
 import Inbox from './Inbox'
 import Outbox from './Outbox'
 import Settings from './Settings'
+import Onboarding from './Onboarding'
 
 type Props = {
   token: string
@@ -27,6 +28,7 @@ const App: NextPage<Props> = (props) => {
       title={t('app', 'seo-title')}
       description={t('app', 'seo-description')}
     >
+      {router.query.onboarding === '1' && <Onboarding />}
       <div className='flex flex-col flex-grow w-full max-w-4xl px-4 mx-auto md:px-8 xl:px-0 md:-mt-8'>
         <Alert
           message={t('app', 'banner', 'send-message')}
