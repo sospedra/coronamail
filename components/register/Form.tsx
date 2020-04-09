@@ -80,11 +80,11 @@ const RegisterForm: React.FC<{
         <>
           <Label
             name='role'
-            label={t('auth', 'register', 'email-title')}
+            label={t('auth', 'register', 'role-title')}
             className='font-bold text-white'
           >
             <p className='text-sm text-indigo-100'>
-              {t('auth', 'register', 'email-description')}
+              {t('auth', 'register', 'role-description')}
             </p>
             <Field name='role'>
               {({ field }: FieldProps) => (
