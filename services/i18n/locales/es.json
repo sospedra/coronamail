@@ -28,6 +28,10 @@
     }
   },
   "app": {
+    "onboarding": {
+      "next": "Siguiente",
+      "start": "Comenzar 🚀"
+    },
     "banner": {
       "send-message": "Alguien va a recibir tu carta 🤩",
       "send-title": "¡Carta enviada!"
