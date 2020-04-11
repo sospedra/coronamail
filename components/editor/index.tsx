@@ -1,4 +1,4 @@
-import React, { useState, MouseEvent } from 'react'
+import React, { useState, MouseEvent, useEffect } from 'react'
 import { head } from 'lodash'
 import { NextPage } from 'next'
 import { NextSeo } from 'next-seo'
@@ -12,8 +12,10 @@ import { createClient, queryUser, User } from 'services/db'
 import { fetch } from 'services/api'
 import { getLanguages, useTranslation } from 'services/i18n'
 import { protect } from 'services/auth/protect'
+import { matchMedia } from 'services/styles'
 import Footer from 'components/coronamail/Shell/Footer'
 import Loading from 'components/coronamail/Loading'
+import Tour from 'components/coronamail/Tour'
 import PellEditor from './Editor'
 
 type Props = {
@@ -30,6 +32,11 @@ const Editor: NextPage<Props> = (props) => {
   const [subject, setSubject] = useState('')
   const [content, setContent] = useState('')
   const [errorMessage, setErrorMessage] = useState('')
+  const [isMediaMD, setIsMediaMD] = useState(true)
+
+  useEffect(() => {
+    setIsMediaMD(matchMedia('md'))
+  }, [])
 
   const onSendMail = async (e: MouseEvent) => {
     e.preventDefault()
@@ -72,6 +79,28 @@ const Editor: NextPage<Props> = (props) => {
       />
       {isLoading && <Loading />}
 
+      <Tour
+        endOnFinish
+        steps={[
+          {
+            content: t('editor', 'tour', 'language'),
+            target: '#editor-language',
+          },
+          {
+            content: t('editor', 'tour', 'subject'),
+            target: '#editor-subject',
+          },
+          {
+            content: t('editor', 'tour', 'content'),
+            target: '#js-coronamail-editor',
+          },
+          {
+            content: t('editor', 'tour', 'send'),
+            target: isMediaMD ? '#editor-send-md' : '#editor-send',
+          },
+        ]}
+      />
+
       <main className='flex flex-col flex-grow w-full max-w-4xl min-h-screen mx-auto md:min-h-0'>
         <div className='flex flex-row items-end justify-between p-4'>
           <div className='flex flex-col flex-1 md:mr-16'>
@@ -110,6 +139,8 @@ const Editor: NextPage<Props> = (props) => {
             )}
             <div>
               <Select
+                id='editor-language'
+                instanceId='editor-language'
                 value={props.availableLanguages.find(
                   ({ value }) => value === lang,
                 )}
@@ -122,7 +153,10 @@ const Editor: NextPage<Props> = (props) => {
                 }
               />
             </div>
-            <div className='flex items-end w-full border-b border-gray-700'>
+            <div
+              className='flex items-end w-full border-b border-gray-700'
+              id='editor-subject'
+            >
               <label
                 className='px-2 mr-2 text-lg text-gray-800'
                 htmlFor='title'
@@ -142,6 +176,7 @@ const Editor: NextPage<Props> = (props) => {
             </div>
           </div>
           <button
+            id='editor-send-md'
             className='flex-row items-center hidden px-4 py-2 font-bold bg-red-500 rounded md:flex hover:bg-red-600'
             onClick={onSendMail}
           >
@@ -153,6 +188,7 @@ const Editor: NextPage<Props> = (props) => {
         <PellEditor setContent={setContent} />
 
         <button
+          id='editor-send'
           onClick={onSendMail}
           className='fixed bottom-0 right-0 flex items-center justify-center w-16 h-16 m-4 text-white bg-red-500 rounded-full shadow-lg md:hidden'
         >

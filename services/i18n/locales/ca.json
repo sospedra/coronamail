@@ -28,16 +28,19 @@
     }
   },
   "app": {
-    "onboarding": {
-      "next": "Següent",
-      "start": "Començar 🚀"
+    "tour": {
+      "outbox": "Escriu cartes que rebran les persones malaltes de Covid-19.",
+      "inbox": "A mesura que els voluntaris vagin escribint cartes les aniràs rebent a aquesta safata d'entrada.",
+      "send-mail": "Vull escriure la meva primera carta. Som-hi!"
     },
     "banner": {
       "send-message": "Algú rebrà la teva carta 🤩",
       "send-title": "Carta enviada!"
     },
     "inbox-title": "Cartes rebudes 📥",
+    "inbox-empty": "Aquí apareixeran les cartes que rebis",
     "outbox-title": "Cartes enviades 📤",
+    "outbox-empty": "Aquí apareixeran les cartes que enviïs",
     "readed-at": "Llegit el",
     "send-mail": "Envia una nova carta",
     "seo-description": "Inici",
@@ -160,6 +163,13 @@
     }
   },
   "common": {
+    "tour": {
+      "back": "Enrrere",
+      "close": "Tancar",
+      "last": "Entesos",
+      "next": "Següent",
+      "skip": "Saltar"
+    },
     "name": "CoronaMail",
     "cookies": {
       "text": "Utilitzem cookies pròpies i de tercers per millorar l'experiència de l'usuari i així millorar el nostre servei. Si continues navegant acceptes les nostres #{legal}. Segueix navegant i menja't les cookies!🍪",
@@ -195,7 +205,13 @@
     "seo-title": "Escriu la teva carta",
     "subject-placeholder": "Escriu l'assumpte de la teva carta",
     "subject-title": "Assumpte",
-    "title": "Escriure una carta"
+    "title": "Escriure una carta",
+    "tour": {
+      "language": "Indica l'idioma d'aquesta carta. Això ens ajudarà a enviar-la a persones que l'entenguin.",
+      "subject": "Posa-li un títol a la teva primera carta.",
+      "content": "Redacta aquí la teva carta. Pots explicar tot allò que et vingui de gust (com t'anat el dia, una anècdota, una història o un simple missatge de suport), sempre amb respecte. Recirda que les cartes poden ser compartides, no posis dades personals.",
+      "send": "Quan estigui llesta, envíala!"
+    }
   },
   "home": {
     "claim": "Repartint amor en temps de virus #JoActuo",

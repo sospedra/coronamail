@@ -28,16 +28,19 @@
     }
   },
   "app": {
-    "onboarding": {
-      "next": "Siguiente",
-      "start": "Comenzar 🚀"
+    "tour": {
+      "outbox": "Escribe cartas que recibirán las personas enfermas de Covid-19.",
+      "inbox": "A medida que los voluntarios vayan escribiendo cartas las irás recibiendo en esta bandeja de entrada.",
+      "send-mail": "¡Vamos a escribir tu primera carta!"
     },
     "banner": {
       "send-message": "Alguien va a recibir tu carta 🤩",
       "send-title": "¡Carta enviada!"
     },
     "inbox-title": "Cartas recibidas 📥",
+    "inbox-empty": "Aquí aparecerán las cartas que recibas",
     "outbox-title": "Cartas enviadas 📤",
+    "outbox-empty": "Aquí aparecerán las cartas que envíes",
     "readed-at": "Leído el ",
     "send-mail": "Envía una nueva carta",
     "seo-description": "Inicio",
@@ -160,6 +163,13 @@
     }
   },
   "common": {
+    "tour": {
+      "back": "Atrás",
+      "close": "Cerrar",
+      "last": "Entendido",
+      "next": "Siguiente",
+      "skip": "Saltar"
+    },
     "cookies": {
       "legal": "condiciones legales",
       "text": "Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario y así mejorar nuestro servicio. Si continúas navegando aceptas nuestras #{legal}. ¡Sigue navegando y cómete las cookies! 🍪"
@@ -195,7 +205,13 @@
     "seo-title": "Escribe tu carta",
     "subject-placeholder": "Escribe el asunto de tu carta",
     "subject-title": "Asunto",
-    "title": "Escribe una carta"
+    "title": "Escribe una carta",
+    "tour": {
+      "language": "Indica el idioma de esta carta. Esto nos ayudará a enviarla a personas que la entiendan.",
+      "subject": "Ponle un título a tu primera carta.",
+      "content": "Redacta aquí tu carta. Puedes contar todo aquello que te apetezca (cómo te ha ido el día, una anécdota, una historia o un simple mensaje de apoyo), siempre con respeto. Recuerda que las cartas pueden ser compartidas no pongas datos personales.",
+      "send": "Cuándo esté lista ¡Envíala!"
+    }
   },
   "home": {
     "claim": "Repartiendo amor en tiempos de virus",

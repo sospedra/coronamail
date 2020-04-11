@@ -1,11 +1,12 @@
 import React from 'react'
+import { useRouter } from 'next/router'
 import { toString } from 'lodash'
 import { string as yupString, object as yupObject } from 'yup'
 import { Translator, useTranslation } from 'services/i18n'
 import { hash } from 'services/crypto'
-import { Input, Submit, Label, Form } from 'components/coronamail/Form'
-import { useRouter } from 'next/router'
 import { setAuthCookie } from 'services/auth/protect'
+import { createStorage, STORE_KEY_ONBOARDING } from 'services/storage'
+import { Input, Submit, Label, Form } from 'components/coronamail/Form'
 
 const createValidationSchema = (t: Translator) => {
   return yupObject().shape({
@@ -29,10 +30,10 @@ const LoginForm: React.FC<{
       routeAPI='/api/auth/login'
       onSubmit={(payload) => {
         setAuthCookie(payload.data.authToken)
-        router.replace(
-          props.needsVerification ? '/app?onboarding=1' : '/app',
-          '/app',
-        )
+        if (props.needsVerification) {
+          createStorage().setItem(STORE_KEY_ONBOARDING, 'true')
+        }
+        router.replace('/app')
       }}
       mutateAPI={(values) => ({
         ...values,

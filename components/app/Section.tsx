@@ -1,13 +1,14 @@
 import React from 'react'
 
 const Section: React.FC<{
+  id?: string
   title?: string
   description?: string
   action?: React.ReactNode
   sm?: boolean
 }> = (props) => {
   return (
-    <section className='mb-10'>
+    <section className='mb-10 bg-white' id={props.id}>
       {props.title && (
         <div className='flex justify-between w-full'>
           <h2

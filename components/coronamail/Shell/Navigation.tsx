@@ -31,7 +31,10 @@ const Navigation: React.FC<{
           <nav>
             {router.pathname === '/app' ? (
               <Link href='/app/editor'>
-                <a className='inline-flex h-6 font-bold text-gray-100 bg-red-500 rounded hover:bg-red-600 md:h-10 md:pr-4 md:py-2 md:pl-2'>
+                <a
+                  id='nav__create-mail'
+                  className='inline-flex h-6 font-bold text-gray-100 bg-red-500 rounded hover:bg-red-600 md:h-10 md:pr-4 md:py-2 md:pl-2'
+                >
                   <Icon path={mdiPlus} size={1} color='white' />
                   <span className='hidden md:inline'>
                     {t('common', 'header', 'new-mail')}

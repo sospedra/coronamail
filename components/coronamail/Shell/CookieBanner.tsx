@@ -1,19 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import Icon from '@mdi/react'
 import { mdiCloseCircle } from '@mdi/js'
-import { noop } from 'lodash'
 import { useTranslation } from 'services/i18n'
-
-const LEGAL_ITEM = '@@coronamail/did-accept-legal'
-const ls = () => window?.localStorage || { getItem: noop, setItem: noop }
+import { useStorage, createStorage, STORE_KEY_LEGAL } from 'services/storage'
 
 const CookieBanner: React.FC<{}> = () => {
   const { t, tReplace } = useTranslation()
   const [didAccept, setDidAccept] = useState(true)
-  useEffect(() => {
-    setDidAccept(ls().getItem(LEGAL_ITEM) === 'true')
-  }, [])
+  useStorage((storage) => {
+    setDidAccept(storage.getItem(STORE_KEY_LEGAL) === 'true')
+  })
 
   if (didAccept) return null
 
@@ -21,7 +18,7 @@ const CookieBanner: React.FC<{}> = () => {
     <div
       onClick={() => {
         setDidAccept(true)
-        ls().setItem(LEGAL_ITEM, 'true')
+        createStorage().setItem(STORE_KEY_LEGAL, 'true')
       }}
       className='fixed bottom-0 z-30 flex items-center w-full max-w-xl p-4 overflow-visible bg-white rounded-t cursor-pointer'
       style={{

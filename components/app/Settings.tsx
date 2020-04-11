@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
-import { useRouter } from 'next/router'
 import { mdiLogout } from '@mdi/js'
 import Icon from '@mdi/react'
-import { fetch } from 'services/api'
 import { useTranslation } from 'services/i18n'
 import { User, updateUser, createClient } from 'services/db'
+import { signout } from 'services/auth/protect'
 import { sleep } from 'services/sleep'
 import Loading from 'components/coronamail/Loading'
 import UserRole from 'components/coronamail/UserRole'
@@ -14,7 +13,6 @@ const Settings: React.FC<{
   token: string
 }> = (props) => {
   const { t } = useTranslation()
-  const router = useRouter()
   const [role, setRole] = useState(props.user.role)
   const [isLoading, setIsLoading] = useState(false)
   const onChangeRole = async () => {
@@ -67,13 +65,7 @@ const Settings: React.FC<{
       <li className='max-w-lg mb-6'>
         <button
           className='flex flex-row px-4 py-2 font-bold text-white bg-red-800 rounded hover:bg-red-600'
-          onClick={async () => {
-            const { response } = await fetch('/api/auth/signout')
-            if (response.ok) {
-              window.localStorage.setItem('logout', Date.now().toString())
-              router.push('/')
-            }
-          }}
+          onClick={signout}
         >
           <Icon path={mdiLogout} size={1} color='white' className='mr-2' />
           {t('app', 'settings', 'signout')}

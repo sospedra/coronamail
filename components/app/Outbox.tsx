@@ -12,9 +12,15 @@ const Outbox: React.FC<{
   mails?: { id: string; data: Mail }[]
 }> = (props) => {
   const { t, lang } = useTranslation()
+
   return (
     <ul className='flex flex-col items-center py-2 overflow-x-hidden'>
       <RowStyles />
+      {(!props.mails || props.mails.length === 0) && (
+        <li className='pb-2 italic text-gray-700'>
+          <p>{t('app', 'outbox-empty')}</p>
+        </li>
+      )}
       {props.mails?.map(({ data, id }, i) => (
         <li key={`outbox-${i}`} className='relative w-full'>
           <Link href={`/mail/${id}`}>
@@ -30,7 +36,7 @@ const Outbox: React.FC<{
                 ) : (
                   <Icon
                     path={mdiEyeOffOutline}
-                    color={'silver'}
+                    color='silver'
                     size={0.8}
                     className='inline'
                   />

@@ -1,16 +1,16 @@
 import React from 'react'
 import { NextPage } from 'next'
 import { useRouter } from 'next/router'
-import { useTranslation } from 'services/i18n'
+import { useTranslation, Translator } from 'services/i18n'
 import { protect } from 'services/auth/protect'
 import { createClient, queryUser, User, Mail } from 'services/db'
 import Shell from 'components/coronamail/Shell'
 import Alert from 'components/coronamail/Alert'
+import Tour from 'components/coronamail/Tour'
 import Section from './Section'
 import Inbox from './Inbox'
 import Outbox from './Outbox'
 import Settings from './Settings'
-import Onboarding from './Onboarding'
 
 type Props = {
   token: string
@@ -19,32 +19,65 @@ type Props = {
   inbox: { id: string; data: Mail }[]
 }
 
+const selectSteps = (t: Translator, doesUserHasInbox: boolean) => {
+  let steps = [
+    {
+      content: t('app', 'tour', 'outbox'),
+      target: '#outbox',
+    },
+    {
+      content: t('app', 'tour', 'send-mail'),
+      target: '#nav__create-mail',
+    },
+  ]
+
+  if (doesUserHasInbox) {
+    steps.unshift({
+      content: t('app', 'tour', 'inbox'),
+      target: '#inbox',
+    })
+  }
+
+  return steps
+}
+
 const App: NextPage<Props> = (props) => {
   const router = useRouter()
   const { t } = useTranslation()
+  const routerDidSendMail = router.query.s === '1'
+  const doesUserHasInbox = ['sick', 'assistat'].includes(props.user.role)
 
   return (
     <Shell
       title={t('app', 'seo-title')}
       description={t('app', 'seo-description')}
     >
-      {router.query.onboarding === '1' && <Onboarding />}
+      <Tour
+        lastMessage='Escribir una carta'
+        steps={selectSteps(t, doesUserHasInbox)}
+        callback={({ status }) => {
+          if (status === 'finished') {
+            router.push('/app/editor')
+          }
+        }}
+      />
       <div className='flex flex-col flex-grow w-full max-w-4xl px-4 mx-auto md:px-8 xl:px-0 md:-mt-8'>
         <Alert
           message={t('app', 'banner', 'send-message')}
-          isVisible={router.query.s === '1'}
+          isVisible={routerDidSendMail}
           title={t('app', 'banner', 'send-title')}
           mode='info'
           className='w-full mx-auto mb-4 md:w-1/2'
         />
-        {['sick', 'assistat'].includes(props.user.role) && (
-          <Section title={t('app', 'inbox-title')}>
-            <Inbox mails={props.inbox} />
+
+        {doesUserHasInbox && (
+          <Section title={t('app', 'inbox-title')} id='inbox'>
+            <Inbox mails={[]} />
           </Section>
         )}
 
-        <Section title={t('app', 'outbox-title')}>
-          <Outbox mails={props.mails} />
+        <Section title={t('app', 'outbox-title')} id='outbox'>
+          <Outbox mails={[]} />
         </Section>
 
         <Section title={t('app', 'settings', 'title')} sm>
