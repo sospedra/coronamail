@@ -1,5 +1,6 @@
 import React, { useContext, useEffect } from 'react'
 import { useRouter } from 'next/router'
+import { createStorage, STORE_KEY_SINGOUT } from 'services/storage'
 
 const authContext = React.createContext<{
   token: string | null
@@ -14,7 +15,7 @@ export const AuthProvider: React.FC<{
 }> = (props) => {
   const router = useRouter()
   const syncLogout = (event: StorageEvent) => {
-    if (event.key === 'signout') {
+    if (event.key === 'signout' || event.key === STORE_KEY_SINGOUT) {
       router.push('/')
     }
   }
@@ -23,7 +24,7 @@ export const AuthProvider: React.FC<{
     window.addEventListener('storage', syncLogout)
     return () => {
       window.removeEventListener('storage', syncLogout)
-      window.localStorage.removeItem('signout')
+      createStorage().removeItem(STORE_KEY_SINGOUT)
     }
   }, [])
 
