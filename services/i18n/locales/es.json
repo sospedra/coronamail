@@ -116,7 +116,7 @@
       "country-placeholder": "Selecciona el país",
       "country-title": "¿En qué país resides actualmente?",
       "cta": "Crear la cuenta",
-      "email-description": "El e-mail tiene que ser válido para poder acceder. ¡No usamos contraseñas! Así que tu correo electrónico es todo lo que necesitas, por eso tiene que ser correcto.",
+      "email-description": "El e-mail tiene que ser válido para poder acceder. Así que tu correo electrónico es todo lo que necesitas, por eso tiene que ser correcto.",
       "email-placeholder": "aurora@gmail.com",
       "email-title": "¿Cuál es tu correo electrónico?",
       "password-description": "Tu contraseña va ser cifrada a prueba de bombas. Debe tener como mínimo 8 carácteres.",
@@ -264,7 +264,7 @@
         "description": "regístrate e indica que quieres recibirlas. Nos encargaremos de hacerte llegar cartas que puedas leer a las personas enfermas.",
         "title": "Soy personal sanitario y quiero leer cartas a personas enfermas,"
       },
-      "cta": "¡Únete",
+      "cta": "¡Únete!",
       "description": "El objetivo es hacer llegar cartas anónimas llenas de amor y apoyo a todas aquellas personas que quieran sentir que están acompañadas mientras luchan contra la Covid-19.",
       "receive": {
         "description": "regístrate e indica que quieres recibirlas. Te irán llegando cartas llenas de amor.",

@@ -116,7 +116,7 @@
       "country-placeholder": "Selecciona el país",
       "country-title": "A quin país resideixes actualment?",
       "cta": "Crea el compte",
-      "email-description": "L'e-mail ha de ser vàlid per poder accedir-hi. No fem servir contrasenyes! Així que el teu correu electrònic és tot el que necessites, per això ha de ser correcte.",
+      "email-description": "L'e-mail ha de ser vàlid per poder accedir-hi. Rebràs un correo de confirmació.",
       "email-placeholder": "aurora@gmail.com",
       "email-title": "Quin és el teu correu electrònic?",
       "password-description": "",
@@ -294,7 +294,7 @@
         "description": "Vull llegir cartes.",
         "title": "Sóc una persona malalta o aïllada."
       },
-      "title": "Ennvia i rep amor",
+      "title": "Envia i rep amor",
       "writer": {
         "cta": "Escriure!",
         "description": "Vull escriure cartes a persones malaltes.",

@@ -1,187 +1,332 @@
 {
-  "home": {
-    "claim": "",
-    "title": "",
-    "cta": "",
-    "who": {
-      "title": "",
-      "body0": "",
-      "body1": "",
-      "writer": {
-        "title": "",
-        "description": "",
-        "cta": ""
-      }
-    },
-    "features": {
-      "title": "",
-      "description": "",
-      "cta": "",
-      "send": {
-        "title": "",
-        "description": ""
-      },
-      "receive": {
-        "title": "",
-        "description": ""
-      },
-      "assist": {
-        "title": "",
-        "description": ""
-      }
-    },
-    "faq": {
-      "title": "",
-      "0": {
-        "question": "",
-        "answer": ""
-      }
-    }
-  },
-  "common": {
-    "footer": {
-      "text": "",
-      "about": "",
-      "faq": "",
-      "join": ""
-    },
-    "header": {
-      "login": "",
-      "register": "",
-      "app": "",
-      "new-mail": ""
-    },
-    "cookies": {
-      "text": ""
-    }
+  "404": {
+    "cta": "Take me to a safe place",
+    "description": "The page you're looking for it's on quarantine, we're working hard to recover it soon!",
+    "seo-description": "There's been a problem and we cannot find the page",
+    "seo-title": "Page not found",
+    "title": "Page not found"
   },
   "about": {
-    "title": "",
+    "contribute": {
+      "body0": "Share your feedback! We want to keep improving and provide the best service to everyone in need. Send us your message at support@coronamail.org",
+      "title": " Want to help?"
+    },
+    "join": "Join us!",
+    "seo-description": "CoronaMail it's a platform created to send letters to people infected with the Covid-19 virus.",
+    "seo-title": "About CoronaMail",
+    "title": "About CoronaMail",
     "what": {
-      "title": "",
-      "body0": ""
+      "body0": "coronamail.org it's a nonprofit platform to send support and love through letters to everyone isolated and/or infected and thus ease their quarantine.",
+      "body1": "The goal of CoronaMail is to make company, amuse and send love through letters, stories or tales from the \"outside\" to everyone infected or in quarantine that are feeling lonely.",
+      "body2": "We believe that people infected by Covid-19 (on top of fight the virus) they have to deal with solitude. What's a better way to break this isolation during the quarantine than through letters. Letters that aside of their content they say \"We're together in this situation\".",
+      "title": "What's this?"
     },
     "who": {
-      "title": "",
-      "body0": "",
-      "body1": ""
-    },
-    "contribute": {
-      "title": "",
-      "body0": ""
+      "body0": "We're a team of volunteers that wants to help overcome together this pandemic. We got the idea at the beginning of the quarantine and we started working on this platform. After that we noticed that some Hospitals created some emails so everyone could send messages to the victims. And so we rushed to finish this project.",
+      "body1": "We are Bàrbara, an events organizer, and Rubén, a software engineer. We're very happy to share this project with everyone willing to contribute. Thanks in advance.",
+      "title": "About us"
     }
-  },
-  "404": {
-    "title": "",
-    "description": "",
-    "cta": ""
   },
   "app": {
-    "inbox-title": "",
-    "outbox-title": "",
-    "readed-at": "",
-    "send-mail": "",
-    "banner": {
-      "send-mail": "Mail sent!"
+    "tour": {
+      "outbox": "Write letters that the Covid-19 patients will read.",
+      "inbox": "You'll get the volunteers letters as soon as they send them in this inbox.",
+      "send-mail": "Let's go write your first letter!"
     },
+    "banner": {
+      "send-message": "Someone will get your letter! 🤩",
+      "send-title": "Letter sent!"
+    },
+    "inbox-title": "Inbox 📥",
+    "inbox-empty": "Here you'll see your received letters",
+    "outbox-title": "Outbox 📤",
+    "outbox-empty": "Here you'll see your sent letters",
+    "readed-at": "Seen at ",
+    "send-mail": "Send a new letter",
+    "seo-description": "Home",
+    "seo-title": "Home",
     "settings": {
-      "title": "",
-      "status-title": "",
-      "writer": "",
-      "sick": "",
-      "assistant": "",
-      "remove-title": "",
-      "remove-message": "",
-      "signout": ""
+      "remove-message": "Send us an email at ",
+      "remove-title": "Do you want to remove your account?",
+      "role-confirm": "This change will imply start or stop receiving letters, are you sure?",
+      "role-accept": "Proceed",
+      "signout": "Close session",
+      "status-title": "Do you want to change your status?",
+      "title": "Settings"
     }
   },
-  "editor": {
-    "title": "",
-    "subject-title": "",
-    "subject-placeholder": "",
-    "send-mail": ""
-  },
   "auth": {
-    "login": {
-      "title": "",
-      "email": "",
-      "placeholder": "",
-      "password": "",
-      "cta": "",
-      "register-text": "",
-      "register-cta": "",
-      "success-title": "",
-      "success-indication": ""
-    },
-    "register": {
-      "title": "",
-      "body0": "",
-      "body1": "",
-      "role-title": "",
-      "role-description": "",
-      "role-writer": "",
-      "role-sick": "",
-      "role-assistant": "",
-      "email-title": "",
-      "email-description": "",
-      "email-placeholder": "",
-      "name-title": "",
-      "name-description": "",
-      "name-placeholder": "",
-      "country-title": "",
-      "country-description": "",
-      "country-placeholder": "",
-      "language-title": "",
-      "language-description": "",
-      "language-placeholder": "",
-      "tos": "",
-      "cta": ""
+    "email": {
+      "recover": {
+        "body0": "We've received a request to recover the CoronaMail's password with this email.",
+        "body1": "If you want to reset our credentials with your account ",
+        "body2": "press the next button or copy and paste the link below.",
+        "cta": "Reset password",
+        "footer0": "If you didn't request anything, you can safely ignore this message.",
+        "footer1": "Thanks from the CoronaMail team.",
+        "subject": "🔑 Reset password"
+      },
+      "register": {
+        "body0": "Hemos recibido una petición de crear una cuenta en CoronaMail usando este correo electrónico.",
+        "body1": "Si quieres registrarte y colaborar con nosotros usando este e-mail ",
+        "body2": "press the next button or copy and paste the link below.",
+        "cta": "Crear una cuenta en CoronaMail",
+        "footer0": "If you didn't request anything, you can safely ignore this message.",
+        "footer1": "Thanks from the CoronaMail team.",
+        "subject": "👋 Welcome to CoronaMail!"
+      }
     },
     "error": {
       "dismiss": "Dismiss",
-      "expired": "Token is expired",
-      "format": "Token has invalid format or misses data",
-      "invalid": "Token has invalid signature",
+      "email": "This doesn't look like an email",
+      "expired": "The token has expired",
+      "format": "The token has an invalid format",
+      "invalid": "The token has an invalid signature",
       "title": "Ooops! Something went wrong",
-      "email": "That does not look like an email"
+      "required": "This field is mandatory",
+      "missing": "One of the mandatory fields is missing",
+      "role": "The assigned role isn't valid",
+      "autentication": "The credentials are invalid",
+      "match": "Don't match",
+      "password-length": "Has to be at least 8 chars long",
+      "verified": "This email is not verified. We have sent you an email"
     },
-    "email": {
-      "magic-link": {
-        "body0": "We received a request to sign in to CoronaMail using this email address.",
-        "body1": "If you want to sign in with your account ",
-        "body2": "Click the following button or copy and paste the link below.",
-        "cta": "Sign in to CoronaMail",
-        "footer0": "If you did not request this link, you can safely ignore this email.",
-        "footer1": "Thanks from the CoronaMail team.",
-        "subject": "📥 Sign in to CoronaMail"
+    "login": {
+      "cta": "Login",
+      "email": "Email",
+      "password": "Password",
+      "placeholder": "tiara@coronamail.org",
+      "register-cta": "Create an account",
+      "register-text": "If you don't have an account,",
+      "seo-description": "Register",
+      "seo-title": "Register",
+      "success-indication": "Check your email to access CoronaMail.",
+      "success-title": "¡You got an email 📨!",
+      "success-subtitle": "This may take a while",
+      "title": "Login",
+      "recover-form-cta": "Recover password",
+      "recover-title": "Recover password",
+      "recover-text": "Or if you don't rememver your password",
+      "recover-cta": "recover your password"
+    },
+    "register": {
+      "body0": "This data will be always anonymized by most strict security directives. We're GDPR compliant. Not even us will be able to get your personal data.",
+      "body1": "You can fullfill everything without worries! 😎",
+      "country-description": "We use this to match the letters by proximity.",
+      "country-placeholder": "Select your country",
+      "country-title": "Where are you living now?",
+      "cta": "Create your account",
+      "email-description": "The email has to be valid. We'll send you a confirmation email.",
+      "email-placeholder": "tiara@coronamail.org",
+      "email-title": "What's your email?",
+      "password-description": "The password is indecipherable. But has to be at least 8 chars long.",
+      "password-placeholder": "********",
+      "password-title": "What will be your password?",
+      "language-description": "We use this to match the letters with people that can understand them.",
+      "language-placeholder": "Select your languages",
+      "language-title": "Which languages do you understand?",
+      "name-description": "It doesn't have to be your real name, use an alias if you prefer so.",
+      "name-placeholder": "Tiara",
+      "name-title": "What's your name?",
+      "privacy": "privacy policy",
+      "privacy-message": "as well as the ",
+      "role-assistant": "I'm a health worker, I want to read.",
+      "role-description": "We use this to define what your role will be (writer/reader)",
+      "role-sick": "I'm a sick person, I want to read.",
+      "role-title": "What's your status?",
+      "role-writer": "I want to write letters.",
+      "seo-description": "Information",
+      "seo-title": "Information",
+      "success-indication": "Check your email to access CoronaMail.",
+      "success-title": "📥 You got an email!",
+      "success-subtitle": "This may take a while",
+      "title": "Create a new account",
+      "tos": "the service terms and conditions ",
+      "tos-message": "By creating this account you accept "
+    },
+    "recover": {
+      "error-button": "Start a new session",
+      "error": "Ooops! Something went wrong",
+      "loading": "We're processing your request",
+      "seo-description": "Verifying authentication",
+      "seo-title": "Verification",
+      "success-message": "You'll redirected soon",
+      "success": "Welcome",
+      "cta": "Change password",
+      "password-title": "New password",
+      "password-description": "It has to be at least 8 chars long",
+      "password-placeholder": "********",
+      "contrast-title": "Repeate the new password",
+      "contrast-description": "Let's make sure you typed it properly",
+      "contrast-placeholder": "********",
+      "title": "Recover your password"
+    }
+  },
+  "common": {
+    "tour": {
+      "back": "Back",
+      "close": "Close",
+      "last": "Ok",
+      "next": "Next",
+      "skip": "Skip"
+    },
+    "cookies": {
+      "legal": "legal terms",
+      "text": "We use our own and third-party cookies to improve the user experience and power our service. If you continue browsing you're accepting our #{legal}. Keep going and eat these cookies! 🍪"
+    },
+    "footer": {
+      "about": "About us",
+      "faq": "FAQ",
+      "join": "Join us",
+      "text": "Hand-crafted with ♥️ in Barcelona by "
+    },
+    "header": {
+      "app": "Go to app",
+      "login": "Login",
+      "new-mail": "Create a new letter",
+      "register": "Register"
+    },
+    "loading": {
+      "alert": "You'll be redirected soon",
+      "title": "We're processing your request"
+    },
+    "name": "CoronaMail"
+  },
+  "editor": {
+    "close": "Close",
+    "error": {
+      "generic": "Ooops! Something went wrong",
+      "mandatory-content": "You have to write something. You don't want to send an empty letter, ain't?",
+      "mandatory-subject": "The subject is mandatory"
+    },
+    "home": "Home",
+    "send-mail": "Send",
+    "seo-description": "Write",
+    "seo-title": "Write your letter",
+    "subject-placeholder": "Write the letter's subject",
+    "subject-title": "Subject",
+    "title": "Write a letter",
+    "tour": {
+      "language": "Select the letter's language. We'll send it to people that speaks such language.",
+      "subject": "Add a catchy title.",
+      "content": "Write here your letter. You can explain anything you like (how was your day, a story, one anecdote or a simple support message). Be respectful. Remember the letters can be shared, do not post anything private that can compromise you.",
+      "send": "When it's ready, send it!"
+    }
+  },
+  "home": {
+    "claim": "Spreading love in times of virus",
+    "cta": "Join us",
+    "faq": {
+      "2": {
+        "answer": "Yes, you can write letters in any language. All the people that register as readers shall indicate which languages do they understand. In the other hand, every time a letter is created it includes in which language. Our system will distribute the letters accordingly.",
+        "question": "Can I write the letters in any language?"
       },
-      "register": {
-        "body0": "We received a request to create a CoronaMail account using this email address.",
-        "body1": "If you want to sign up and collaborate with us using this e-mail ",
-        "body2": "Click the following button or copy and paste the link below.",
-        "cta": "Create a CoronaMail account",
-        "footer0": "If you did not request this link, you can safely ignore this email.",
-        "footer1": "Thanks from the CoronaMail team.",
-        "subject": "👋 Welcome to CoronaMail"
+      "6": {
+        "answer": "The website as well as other integrated services are fully accessible. Everyone is welcome here.",
+        "question": "If I'm a person with special capabilities can I use the service?"
+      },
+      "0": {
+        "answer": "You can explain anything you like (how was your day, a story, one anecdote or a simple support message). Be respectful. Remember the letters can be shared, do not post anything private that can compromise you.",
+        "question": "I want to send a letter, what I should write on?"
+      },
+      "1": {
+        "answer": "No, the letters are anonymous and we take privacy very seriously. However, the recipient of the message can react with an emoji.",
+        "question": "Can the letters be answered?"
+      },
+      "4": {
+        "answer": "You won't receive any. This is to improve the efficiency of the delivery system. However, the letters can be shared you might find one in the social networks.",
+        "question": "Can I read letters if I'm not a sick person?"
+      },
+      "5": {
+        "answer": "You can change your status in \"settings\".",
+        "question": "What if I was sick and healed or the other way around?"
+      },
+      "3": {
+        "answer": "We need the email to ensure the proper function of the system. We'll use it only to notify you about received letters. It looks like everlasting lie from all the services, but our code is public so anyone can check that's true.",
+        "question": "Why do I have to register?"
+      },
+      "7": {
+        "answer": "We don't store any of your information that's not needed for the service. However, absolutely all the data is encrypted and we follow the strict GDPR rules.",
+        "question": "What happens with my data?"
+      },
+      "8": {
+        "answer": "Not yet, we're still considering it.",
+        "question": "Can I attach documents or images to the letters?"
+      },
+      "9": {
+        "answer": "Write letters! We need tones of them! You can send us feedback, as well. Any question or suggetion you can send it to support@coronamail.org.",
+        "question": "How can I help?"
+      },
+      "title": "Preguntas frecuentes"
+    },
+    "features": {
+      "assist": {
+        "description": "register and mark yourself as a reader. We'll make sure you get letters for your patients.",
+        "title": "I'm a health worker and I want to read letters to patients,"
+      },
+      "cta": "Join us",
+      "description": "The goal is to send anonymous letters full of love and support to everyone in need of them. They won't feel alone anymore while the fight against Covid-19.",
+      "receive": {
+        "description": "register and mark yourself as a reader. You'll receive lovely letters.",
+        "title": "I want to read letters,"
+      },
+      "send": {
+        "description": "register and write a letter. We'll make sure your letter gets to a sick person.",
+        "body0": "The more you write the better!",
+        "title": "I want to write letters,"
+      },
+      "title": "How does it work?"
+    },
+    "seo-description": "CoronaMail is a platform to aid with the coronavirus by sending letters to infected people. Join us now and start spreading the love in times of virus!",
+    "seo-title": "Spread and receive love",
+    "body0": "Write letters to the sick or isolated people because of the Covid-19 and send them your love and support.",
+    "body1": "Read letters if you're affected and get all the strength needed to overcome this virus.",
+    "who": {
+      "assistant": {
+        "cta": "Read!",
+        "description": "I want to read letters to the patients.",
+        "title": "I'm a health worker."
+      },
+      "body0": "Tell us what role do you want to play:",
+      "body1": "You can change your status in the future in the \"settings\" section that you'll see after completing the registration.",
+      "sick": {
+        "cta": "Read!",
+        "description": "I want to read letters.",
+        "title": "I'm an infected or isolated person."
+      },
+      "title": "Spread and receive love",
+      "writer": {
+        "cta": "Write!",
+        "description": "I want to write letters for sick people.",
+        "title": "I'm a person willing to help."
       }
     }
   },
+  "legal": {
+    "seo-description": "Legal terms",
+    "seo-title": "Legal terms"
+  },
   "mail": {
-    "home": "",
-    "created-at": "",
-    "by": "",
-    "do-reaction": "",
-    "did-reaction": "",
-    "share": "",
-    "clipboard": "",
+    "by": "by ",
+    "clipboard": "Copied in your clipboard!",
+    "created-at": "Created at ",
+    "did-reaction": "You reacted with this emoji: ",
+    "do-reaction": "React to the letter with one of these emojis:",
+    "home": "Home",
     "notification": {
-      "body0": "You have a new letter!",
-      "body1": "Log in to CoronaMail with your account ",
-      "body2": "Click the following button or copy and paste the link below.",
-      "cta": "Read my letter",
-      "footer0": "If you did not request this link, you can safely ignore this email.",
+      "body0": "Yo got a new letter!",
+      "body1": "Login in CoronaMail with your account ",
+      "body2": "by pressing this button or copy and pasting the link below",
+      "cta": "Read my letter!",
+      "footer0": "If you didn't request anything, you can safely ignore this message.",
       "footer1": "Thanks from the CoronaMail team.",
-      "subject": "💌 You got a letter"
+      "subject": "💌 You got an email!"
+    },
+    "seo-description": "A letter with subject: ",
+    "share": {
+      "message": "Share this letter and help us spread this platform!",
+      "link-body": "I like this CoronaMail letter",
+      "link-cta": "Read it at "
     }
   }
 }

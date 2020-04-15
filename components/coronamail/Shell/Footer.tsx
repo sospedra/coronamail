@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Icon from '@mdi/react'
-import { mdiTwitter, mdiInstagram } from '@mdi/js'
+import { mdiTwitter, mdiInstagram, mdiGithub } from '@mdi/js'
 import { useTranslation } from 'services/i18n'
 
 const Footer: React.FC<{
@@ -66,6 +66,14 @@ const Footer: React.FC<{
                 className='w-6 h-6 opacity-75 hover:opacity-100'
               >
                 <Icon path={mdiInstagram} color='#fff' />
+              </a>
+              <a
+                href='https://github.com/sospedra/coronamail'
+                target='_blank'
+                rel='noopener noreferral'
+                className='w-6 h-6 opacity-75 hover:opacity-100'
+              >
+                <Icon path={mdiGithub} color='#fff' />
               </a>
             </div>
           </div>
