@@ -9,9 +9,12 @@ export const getLocale = async (lang: Lang) => {
     case 'ca': {
       return (await import('./ca.json')).default
     }
-    case 'es':
-    default: {
+    case 'es': {
       return (await import('./es.json')).default
+    }
+    case 'en':
+    default: {
+      return (await import('./en.json')).default
     }
   }
 }
